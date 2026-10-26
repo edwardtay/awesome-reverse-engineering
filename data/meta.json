@@ -1,710 +1,710 @@
 {
   "horsicq/Detect-It-Easy": {
-    "stars": 11755,
-    "pushed": "2026-10-19",
+    "stars": 11806,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "horsicq/Detect-It-Easy",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "mandiant/capa": {
-    "stars": 6255,
-    "pushed": "2026-10-16",
+    "stars": 6273,
+    "pushed": "2026-10-25",
     "archived": false,
     "full": "mandiant/capa",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "mandiant/flare-floss": {
-    "stars": 4193,
-    "pushed": "2026-10-19",
+    "stars": 4200,
+    "pushed": "2026-10-25",
     "archived": false,
     "full": "mandiant/flare-floss",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "VirusTotal/yara-x": {
-    "stars": 1324,
-    "pushed": "2026-10-19",
+    "stars": 1335,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "VirusTotal/yara-x",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "hasherezade/pe-bear": {
-    "stars": 3855,
+    "stars": 3864,
     "pushed": "2026-10-14",
     "archived": false,
     "full": "hasherezade/pe-bear",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "horsicq/XELFViewer": {
     "stars": 1587,
-    "pushed": "2026-10-19",
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "horsicq/XELFViewer",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "slimm609/checksec": {
-    "stars": 2402,
-    "pushed": "2026-09-24",
+    "stars": 2404,
+    "pushed": "2026-10-24",
     "archived": false,
     "full": "slimm609/checksec",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "NationalSecurityAgency/ghidra": {
-    "stars": 91263,
-    "pushed": "2026-10-19",
+    "stars": 94491,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "NationalSecurityAgency/ghidra",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "radareorg/radare2": {
-    "stars": 25096,
-    "pushed": "2026-10-19",
+    "stars": 25156,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "radareorg/radare2",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "rizinorg/rizin": {
-    "stars": 4012,
-    "pushed": "2026-10-19",
+    "stars": 4044,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "rizinorg/rizin",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "rizinorg/cutter": {
-    "stars": 20056,
+    "stars": 20095,
     "pushed": "2026-09-11",
     "archived": false,
     "full": "rizinorg/cutter",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "avast/retdec": {
-    "stars": 8650,
+    "stars": 8656,
     "pushed": "2026-05-26",
     "archived": false,
     "full": "avast/retdec",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "decompiler-explorer/decompiler-explorer": {
-    "stars": 2718,
-    "pushed": "2026-10-14",
+    "stars": 2721,
+    "pushed": "2026-10-20",
     "archived": false,
     "full": "decompiler-explorer/decompiler-explorer",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "x64dbg/x64dbg": {
-    "stars": 49947,
-    "pushed": "2026-10-18",
+    "stars": 50025,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "x64dbg/x64dbg",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "pwndbg/pwndbg": {
-    "stars": 11079,
-    "pushed": "2026-10-19",
+    "stars": 11113,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "pwndbg/pwndbg",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "hugsy/gef": {
-    "stars": 8403,
+    "stars": 8401,
     "pushed": "2026-08-20",
     "archived": false,
     "full": "hugsy/gef",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "rr-debugger/rr": {
-    "stars": 10709,
-    "pushed": "2026-10-18",
+    "stars": 10719,
+    "pushed": "2026-10-23",
     "archived": false,
     "full": "rr-debugger/rr",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "eteran/edb-debugger": {
-    "stars": 2977,
-    "pushed": "2026-10-07",
+    "stars": 2981,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "eteran/edb-debugger",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "frida/frida": {
-    "stars": 22377,
-    "pushed": "2026-10-19",
+    "stars": 22476,
+    "pushed": "2026-10-23",
     "archived": false,
     "full": "frida/frida",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "unicorn-engine/unicorn": {
-    "stars": 9467,
+    "stars": 9490,
     "pushed": "2026-10-18",
     "archived": false,
     "full": "unicorn-engine/unicorn",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "qilingframework/qiling": {
-    "stars": 6143,
-    "pushed": "2026-09-24",
+    "stars": 6157,
+    "pushed": "2026-10-23",
     "archived": false,
     "full": "qilingframework/qiling",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "DynamoRIO/dynamorio": {
-    "stars": 3184,
-    "pushed": "2026-10-18",
+    "stars": 3191,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "DynamoRIO/dynamorio",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "angr/angr": {
-    "stars": 9218,
-    "pushed": "2026-10-18",
+    "stars": 9242,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "angr/angr",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "angr/angr-management": {
-    "stars": 1193,
-    "pushed": "2026-10-19",
+    "stars": 1196,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "angr/angr-management",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "JonathanSalwan/Triton": {
-    "stars": 4335,
-    "pushed": "2026-10-12",
+    "stars": 4342,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "JonathanSalwan/Triton",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "cea-sec/miasm": {
-    "stars": 3994,
+    "stars": 3997,
     "pushed": "2026-09-21",
     "archived": false,
     "full": "cea-sec/miasm",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "lief-project/LIEF": {
-    "stars": 5598,
-    "pushed": "2026-10-18",
+    "stars": 5609,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "lief-project/LIEF",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "capstone-engine/capstone": {
-    "stars": 9116,
-    "pushed": "2026-10-18",
+    "stars": 9136,
+    "pushed": "2026-10-24",
     "archived": false,
     "full": "capstone-engine/capstone",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "keystone-engine/keystone": {
-    "stars": 2649,
+    "stars": 2651,
     "pushed": "2026-10-12",
     "archived": false,
     "full": "keystone-engine/keystone",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "google/bindiff": {
-    "stars": 3212,
+    "stars": 3220,
     "pushed": "2026-09-18",
     "archived": false,
     "full": "google/bindiff",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "google/binexport": {
-    "stars": 1214,
+    "stars": 1216,
     "pushed": "2026-10-16",
     "archived": false,
     "full": "google/binexport",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "joxeankoret/diaphora": {
-    "stars": 4434,
-    "pushed": "2026-10-11",
+    "stars": 4441,
+    "pushed": "2026-10-25",
     "archived": false,
     "full": "joxeankoret/diaphora",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "skylot/jadx": {
-    "stars": 51093,
-    "pushed": "2026-10-14",
+    "stars": 51276,
+    "pushed": "2026-10-25",
     "archived": false,
     "full": "skylot/jadx",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "iBotPeaches/Apktool": {
-    "stars": 26182,
-    "pushed": "2026-10-17",
+    "stars": 26697,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "iBotPeaches/Apktool",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "Konloch/bytecode-viewer": {
-    "stars": 15680,
+    "stars": 15691,
     "pushed": "2026-07-17",
     "archived": false,
     "full": "Konloch/bytecode-viewer",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "sensepost/objection": {
-    "stars": 9450,
+    "stars": 9461,
     "pushed": "2026-09-17",
     "archived": false,
     "full": "sensepost/objection",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "MobSF/Mobile-Security-Framework-MobSF": {
-    "stars": 21992,
-    "pushed": "2026-10-18",
+    "stars": 22041,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "MobSF/Mobile-Security-Framework-MobSF",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "icsharpcode/ILSpy": {
-    "stars": 26720,
-    "pushed": "2026-10-19",
+    "stars": 26818,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "icsharpcode/ILSpy",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "dnSpyEx/dnSpy": {
-    "stars": 11298,
+    "stars": 11340,
     "pushed": "2026-10-17",
     "archived": false,
     "full": "dnSpyEx/dnSpy",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "blacktop/ipsw": {
-    "stars": 3810,
-    "pushed": "2026-10-19",
+    "stars": 3829,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "blacktop/ipsw",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "mandiant/GoReSym": {
-    "stars": 1116,
+    "stars": 1117,
     "pushed": "2026-09-14",
     "archived": false,
     "full": "mandiant/GoReSym",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "worawit/blutter": {
-    "stars": 2765,
+    "stars": 2786,
     "pushed": "2026-08-18",
     "archived": false,
     "full": "worawit/blutter",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "Perfare/Il2CppDumper": {
-    "stars": 9533,
+    "stars": 9559,
     "pushed": "2024-08-18",
     "archived": false,
     "full": "Perfare/Il2CppDumper",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "P1sec/hermes-dec": {
-    "stars": 1215,
+    "stars": 1224,
     "pushed": "2026-10-15",
     "archived": false,
     "full": "P1sec/hermes-dec",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "extremecoders-re/pyinstxtractor": {
-    "stars": 4507,
+    "stars": 4515,
     "pushed": "2026-07-22",
     "archived": false,
     "full": "extremecoders-re/pyinstxtractor",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "zrax/pycdc": {
-    "stars": 4654,
+    "stars": 4660,
     "pushed": "2026-04-07",
     "archived": false,
     "full": "zrax/pycdc",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "GDRETools/gdsdecomp": {
-    "stars": 4353,
+    "stars": 4384,
     "pushed": "2026-10-14",
     "archived": false,
     "full": "GDRETools/gdsdecomp",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "electron/asar": {
-    "stars": 2875,
-    "pushed": "2026-10-10",
+    "stars": 2880,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "electron/asar",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "WebAssembly/wabt": {
-    "stars": 8167,
-    "pushed": "2026-10-13",
+    "stars": 8177,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "WebAssembly/wabt",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "j4k0xb/webcrack": {
-    "stars": 2966,
+    "stars": 2991,
     "pushed": "2026-07-26",
     "archived": false,
     "full": "j4k0xb/webcrack",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "mitmproxy/mitmproxy": {
-    "stars": 45737,
-    "pushed": "2026-10-19",
+    "stars": 46359,
+    "pushed": "2026-10-25",
     "archived": false,
     "full": "mitmproxy/mitmproxy",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "alufers/mitmproxy2swagger": {
-    "stars": 9661,
-    "pushed": "2026-10-12",
-    "archived": false,
-    "full": "alufers/mitmproxy2swagger",
-    "verified": "2026-10-19"
-  },
-  "onekey-sec/unblob": {
-    "stars": 2582,
+    "stars": 9671,
     "pushed": "2026-10-19",
     "archived": false,
+    "full": "alufers/mitmproxy2swagger",
+    "verified": "2026-10-26"
+  },
+  "onekey-sec/unblob": {
+    "stars": 2597,
+    "pushed": "2026-10-26",
+    "archived": false,
     "full": "onekey-sec/unblob",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "ReFirmLabs/binwalk": {
-    "stars": 14512,
+    "stars": 14551,
     "pushed": "2026-08-11",
     "archived": false,
     "full": "ReFirmLabs/binwalk",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "e-m-b-a/emba": {
-    "stars": 3716,
-    "pushed": "2026-10-19",
+    "stars": 3720,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "e-m-b-a/emba",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "fkie-cad/FACT_core": {
     "stars": 1470,
-    "pushed": "2026-10-15",
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "fkie-cad/FACT_core",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "pr0v3rbs/FirmAE": {
-    "stars": 951,
+    "stars": 955,
     "pushed": "2026-06-24",
     "archived": false,
     "full": "pr0v3rbs/FirmAE",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "o-gs/dji-firmware-tools": {
-    "stars": 2257,
-    "pushed": "2026-07-21",
+    "stars": 2263,
+    "pushed": "2026-10-25",
     "archived": false,
     "full": "o-gs/dji-firmware-tools",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "Jon-Becker/heimdall-rs": {
-    "stars": 1629,
-    "pushed": "2026-10-18",
+    "stars": 1633,
+    "pushed": "2026-10-25",
     "archived": false,
     "full": "Jon-Becker/heimdall-rs",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "cdump/evmole": {
-    "stars": 471,
-    "pushed": "2026-10-13",
+    "stars": 473,
+    "pushed": "2026-10-24",
     "archived": false,
     "full": "cdump/evmole",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "shazow/whatsabi": {
-    "stars": 1161,
-    "pushed": "2026-09-27",
+    "stars": 1162,
+    "pushed": "2026-10-19",
     "archived": false,
     "full": "shazow/whatsabi",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "palkeo/panoramix": {
-    "stars": 956,
+    "stars": 957,
     "pushed": "2024-08-04",
     "archived": false,
     "full": "palkeo/panoramix",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "foundry-rs/foundry": {
-    "stars": 10681,
-    "pushed": "2026-10-19",
+    "stars": 10700,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "foundry-rs/foundry",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "morluto/rea": {
-    "stars": 330582,
-    "pushed": "2026-10-19",
+    "stars": 388375,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "morluto/rea",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "HexRaysSA/ida-mcp": {
-    "stars": 1291,
-    "pushed": "2026-10-08",
+    "stars": 1409,
+    "pushed": "2026-10-23",
     "archived": false,
     "full": "HexRaysSA/ida-mcp",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "mrexodia/ida-pro-mcp": {
-    "stars": 13013,
+    "stars": 13162,
     "pushed": "2026-09-26",
     "archived": false,
     "full": "mrexodia/ida-pro-mcp",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "blacktop/ida-mcp-rs": {
-    "stars": 872,
-    "pushed": "2026-10-09",
+    "stars": 880,
+    "pushed": "2026-10-21",
     "archived": false,
     "full": "blacktop/ida-mcp-rs",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "bethington/ghidra-mcp": {
-    "stars": 5787,
-    "pushed": "2026-10-16",
+    "stars": 5920,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "bethington/ghidra-mcp",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "LaurieWired/GhidraMCP": {
-    "stars": 11399,
+    "stars": 11575,
     "pushed": "2026-10-10",
     "archived": false,
     "full": "LaurieWired/GhidraMCP",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "cyberkaida/reverse-engineering-assistant": {
-    "stars": 878,
-    "pushed": "2026-10-19",
+    "stars": 880,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "cyberkaida/reverse-engineering-assistant",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "zinja-coder/jadx-ai-mcp": {
-    "stars": 2916,
+    "stars": 2938,
     "pushed": "2026-10-19",
     "archived": false,
     "full": "zinja-coder/jadx-ai-mcp",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "radareorg/radare2-mcp": {
-    "stars": 328,
+    "stars": 332,
     "pushed": "2026-10-15",
     "archived": false,
     "full": "radareorg/radare2-mcp",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "radareorg/r2ai": {
-    "stars": 490,
-    "pushed": "2026-10-19",
+    "stars": 491,
+    "pushed": "2026-10-20",
     "archived": false,
     "full": "radareorg/r2ai",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "JusticeRage/Gepetto": {
-    "stars": 3487,
+    "stars": 3490,
     "pushed": "2026-08-15",
     "archived": false,
     "full": "JusticeRage/Gepetto",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "symgraph/GhidrAssist": {
-    "stars": 765,
+    "stars": 770,
     "pushed": "2026-10-16",
     "archived": false,
     "full": "symgraph/GhidrAssist",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "albertan017/LLM4Decompile": {
-    "stars": 7147,
+    "stars": 7184,
     "pushed": "2026-02-12",
     "archived": false,
     "full": "albertan017/LLM4Decompile",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "mandiant/flare-vm": {
-    "stars": 9159,
+    "stars": 9192,
     "pushed": "2026-10-07",
     "archived": false,
     "full": "mandiant/flare-vm",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "compiler-explorer/compiler-explorer": {
-    "stars": 19141,
-    "pushed": "2026-10-19",
+    "stars": 19150,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "compiler-explorer/compiler-explorer",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "mytechnotalent/Reverse-Engineering": {
-    "stars": 14857,
-    "pushed": "2026-10-18",
+    "stars": 14987,
+    "pushed": "2026-10-25",
     "archived": false,
     "full": "mytechnotalent/Reverse-Engineering",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "guyinatuxedo/nightmare": {
-    "stars": 3252,
+    "stars": 3264,
     "pushed": "2026-02-08",
     "archived": false,
     "full": "guyinatuxedo/nightmare",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "RPISEC/MBE": {
-    "stars": 6074,
+    "stars": 6084,
     "pushed": "2021-12-09",
     "archived": false,
     "full": "RPISEC/MBE",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "OpenZeppelin/ethernaut": {
-    "stars": 2338,
-    "pushed": "2026-10-15",
+    "stars": 2341,
+    "pushed": "2026-10-23",
     "archived": false,
     "full": "OpenZeppelin/ethernaut",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "theredguild/damn-vulnerable-defi": {
-    "stars": 1377,
+    "stars": 1379,
     "pushed": "2025-03-21",
     "archived": false,
     "full": "theredguild/damn-vulnerable-defi",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "de4dot/de4dot": {
     "stars": 7426,
     "pushed": "2020-08-29",
     "archived": true,
     "full": "de4dot/de4dot",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "nygard/class-dump": {
-    "stars": 3586,
+    "stars": 3587,
     "pushed": "2022-04-06",
     "archived": false,
     "full": "nygard/class-dump",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "cloudflare/har-sanitizer": {
     "stars": 252,
     "pushed": "2026-04-23",
     "archived": true,
     "full": "cloudflare/har-sanitizer",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "pxb1988/dex2jar": {
-    "stars": 13148,
+    "stars": 13152,
     "pushed": "2024-07-21",
     "archived": false,
     "full": "pxb1988/dex2jar",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "WerWolv/ImHex": {
-    "stars": 55433,
+    "stars": 55573,
     "pushed": "2026-10-09",
     "archived": false,
     "full": "WerWolv/ImHex",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "kaitai-io/kaitai_struct": {
-    "stars": 4716,
-    "pushed": "2026-10-18",
+    "stars": 4719,
+    "pushed": "2026-10-19",
     "archived": false,
     "full": "kaitai-io/kaitai_struct",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "QBDI/QBDI": {
-    "stars": 1830,
+    "stars": 1831,
     "pushed": "2026-09-02",
     "archived": false,
     "full": "QBDI/QBDI",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "qemu/qemu": {
-    "stars": 13875,
-    "pushed": "2026-10-19",
+    "stars": 13930,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "qemu/qemu",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "volatilityfoundation/volatility3": {
-    "stars": 4515,
+    "stars": 4536,
     "pushed": "2026-10-12",
     "archived": false,
     "full": "volatilityfoundation/volatility3",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "hasherezade/pe-sieve": {
-    "stars": 3924,
+    "stars": 3928,
     "pushed": "2026-06-06",
     "archived": false,
     "full": "hasherezade/pe-sieve",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "androguard/androguard": {
-    "stars": 6362,
-    "pushed": "2026-10-12",
+    "stars": 6374,
+    "pushed": "2026-10-25",
     "archived": false,
     "full": "androguard/androguard",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "Col-E/Recaf": {
-    "stars": 7439,
-    "pushed": "2026-10-18",
+    "stars": 7441,
+    "pushed": "2026-10-24",
     "archived": false,
     "full": "Col-E/Recaf",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "SamboyCoding/Cpp2IL": {
-    "stars": 3036,
+    "stars": 3064,
     "pushed": "2026-09-15",
     "archived": false,
     "full": "SamboyCoding/Cpp2IL",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "httptoolkit/httptoolkit-desktop": {
-    "stars": 736,
-    "pushed": "2026-10-01",
+    "stars": 738,
+    "pushed": "2026-10-20",
     "archived": false,
     "full": "httptoolkit/httptoolkit-desktop",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "LongSoft/UEFITool": {
-    "stars": 5755,
-    "pushed": "2026-07-29",
+    "stars": 5771,
+    "pushed": "2026-10-24",
     "archived": false,
     "full": "LongSoft/UEFITool",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "redballoonsecurity/ofrak": {
-    "stars": 2081,
-    "pushed": "2026-08-21",
+    "stars": 2080,
+    "pushed": "2026-10-21",
     "archived": false,
     "full": "redballoonsecurity/ofrak",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "openocd-org/openocd": {
-    "stars": 2359,
-    "pushed": "2026-10-18",
+    "stars": 2365,
+    "pushed": "2026-10-24",
     "archived": false,
     "full": "openocd-org/openocd",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
   "OWASP/mastg": {
-    "stars": 13264,
-    "pushed": "2026-10-16",
+    "stars": 13286,
+    "pushed": "2026-10-26",
     "archived": false,
     "full": "OWASP/mastg",
-    "verified": "2026-10-19"
+    "verified": "2026-10-26"
   },
-  "_refreshed": "2026-10-19"
+  "_refreshed": "2026-10-26"
 }
