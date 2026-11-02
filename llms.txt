@@ -1,57 +1,57 @@
 # Awesome Reverse Engineering
 
-> Curated reverse engineering tools and learning resources with safety flags and maintenance data. 135 entries. Entries reviewed 2026-10-10; GitHub data refreshed 2026-10-26.
+> Curated reverse engineering tools and learning resources with safety flags and maintenance data. 135 entries. Entries reviewed 2026-10-10; GitHub data refreshed 2026-11-02.
 
 Flags: runs = executes or emulates target code, or loads third-party plugins and scripts (use an isolated VM); cloud = sends code to a third party when used as documented; impersonated = lookalike download sites reported, use the official link only. No flag = reviewed, none of these known.
 
 ## Identify & Triage
 
-- [Detect It Easy](https://github.com/horsicq/Detect-It-Easy): Identifies compiler, linker, packer and protector for PE, ELF and Mach-O files. (last push 2026-10-26; cost: Free)
-- [capa](https://github.com/mandiant/capa): Names what a binary can do (encrypt, network, persist) from rules; points you to the functions that do it. (last push 2026-10-25; cost: Free)
-- [FLOSS](https://github.com/mandiant/flare-floss): Extracts obfuscated and stack-built strings that plain `strings` misses. (flags: runs; last push 2026-10-25; cost: Free)
-- [YARA-X](https://github.com/VirusTotal/yara-x): Rust successor to YARA for pattern-matching rules; turn findings into reusable detections. (last push 2026-10-26; cost: Free)
-- [PE-bear](https://github.com/hasherezade/pe-bear): Fast PE header and section viewer for first looks at Windows binaries. (last push 2026-10-14; cost: Free)
-- [XELFViewer](https://github.com/horsicq/XELFViewer): ELF header, section and segment viewer. (last push 2026-10-26; cost: Free)
-- [checksec](https://github.com/slimm609/checksec): Reports RELRO, canaries, NX, PIE and FORTIFY; now written in Go (`checksec file <bin>`). (last push 2026-10-24; cost: Free)
+- [Detect It Easy](https://github.com/horsicq/Detect-It-Easy): Identifies compiler, linker, packer and protector for PE, ELF and Mach-O files. (last push 2026-11-02; cost: Free)
+- [capa](https://github.com/mandiant/capa): Names what a binary can do (encrypt, network, persist) from rules; points you to the functions that do it. (last push 2026-11-02; cost: Free)
+- [FLOSS](https://github.com/mandiant/flare-floss): Extracts obfuscated and stack-built strings that plain `strings` misses. (flags: runs; last push 2026-11-01; cost: Free)
+- [YARA-X](https://github.com/VirusTotal/yara-x): Rust successor to YARA for pattern-matching rules; turn findings into reusable detections. (last push 2026-11-02; cost: Free)
+- [PE-bear](https://github.com/hasherezade/pe-bear): Fast PE header and section viewer for first looks at Windows binaries. (last push 2026-10-30; cost: Free)
+- [XELFViewer](https://github.com/horsicq/XELFViewer): ELF header, section and segment viewer. (last push 2026-11-02; cost: Free)
+- [checksec](https://github.com/slimm609/checksec): Reports RELRO, canaries, NX, PIE and FORTIFY; now written in Go (`checksec file <bin>`). (last push 2026-10-28; cost: Free)
 - [pestudio](https://www.winitor.com/): Static Windows executable triage: imports, strings, indicators. (cost: Free · Paid)
 
 ## Binary Formats & Hex Editors
 
 - [ImHex](https://github.com/WerWolv/ImHex): Hex editor with a pattern language, data inspector and diffing for reverse engineering file formats. (last push 2026-10-09; cost: Free)
 - [010 Editor](https://www.sweetscape.com/010editor/): Commercial hex editor whose binary templates parse hundreds of formats. (cost: Paid)
-- [Kaitai Struct](https://kaitai.io/): Declarative format descriptions that compile to parsers in many languages, plus a web IDE. (last push 2026-10-19; cost: Free)
+- [Kaitai Struct](https://kaitai.io/): Declarative format descriptions that compile to parsers in many languages, plus a web IDE. (last push 2026-10-26; cost: Free)
 - [Malcat](https://malcat.fr/): Hex editor, disassembler and analyser in one for fast file triage. (flags: runs; cost: Free · Paid)
 
 ## Disassemblers & Decompilers
 
-- [Ghidra](https://ghidra-sre.org/): NSA's decompiler with scripting, BSim similarity search and a team server. Many 2026 advisories: stay on the latest release. (flags: impersonated, runs; last push 2026-10-26; cost: Free)
+- [Ghidra](https://ghidra-sre.org/): NSA's decompiler with scripting, BSim similarity search and a team server. Many 2026 advisories: stay on the latest release. (flags: impersonated, runs; last push 2026-11-02; cost: Free)
 - [IDA Pro](https://hex-rays.com/): Industry standard. Free, Home and Pro Essential decompile in the cloud; never use cracked builds. (flags: cloud, impersonated, runs; cost: Paid · Free tier)
 - [Binary Ninja](https://binary.ninja/): Layered intermediate languages that suit scripting; the free edition includes a local MCP server and debugger. (flags: runs; cost: Paid · Free tier)
-- [radare2](https://github.com/radareorg/radare2): Scriptable command-line framework for quick triage and automation. (flags: runs; last push 2026-10-26; cost: Free)
-- [Rizin](https://github.com/rizinorg/rizin): radare2 fork focused on usability and a stable API. (flags: runs; last push 2026-10-26; cost: Free)
-- [Cutter](https://github.com/rizinorg/cutter): Rizin GUI with the Ghidra decompiler built in. (flags: runs; last push 2026-09-11; cost: Free)
+- [radare2](https://github.com/radareorg/radare2): Scriptable command-line framework for quick triage and automation. (flags: runs; last push 2026-11-02; cost: Free)
+- [Rizin](https://github.com/rizinorg/rizin): radare2 fork focused on usability and a stable API. (flags: runs; last push 2026-11-02; cost: Free)
+- [Cutter](https://github.com/rizinorg/cutter): Rizin GUI with the Ghidra decompiler built in. (flags: runs; last push 2026-11-02; cost: Free)
 - [Hopper](https://www.hopperapp.com/): Affordable disassembler for macOS and Linux with strong Mach-O and Objective-C support. (flags: runs; cost: Paid)
 - [RetDec](https://github.com/avast/retdec): LLVM-based retargetable decompiler. (maintenance: Limited maintenance mode, per its README; last push 2026-05-26; cost: Free)
-- [Decompiler Explorer](https://dogbolt.org/): Runs one small binary through many decompilers side by side (dogbolt.org). Uploads are kept and shared with tool authors. (flags: cloud; last push 2026-10-20; cost: Free)
+- [Decompiler Explorer](https://dogbolt.org/): Runs one small binary through many decompilers side by side (dogbolt.org). Uploads are kept and shared with tool authors. (flags: cloud; last push 2026-10-28; cost: Free)
 
 ## Debuggers
 
-- [x64dbg](https://github.com/x64dbg/x64dbg): Open-source Windows user-mode debugger; plugins are native DLLs. (flags: runs; last push 2026-10-26; cost: Free)
+- [x64dbg](https://github.com/x64dbg/x64dbg): Open-source Windows user-mode debugger; plugins are native DLLs. (flags: runs; last push 2026-10-28; cost: Free)
 - [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/): Microsoft's debugger with Time Travel Debugging: record once, step backwards. (flags: runs; cost: Free)
 - [GDB](https://www.sourceware.org/gdb/): The GNU debugger; the base pwndbg and GEF build on. (flags: runs; cost: Free)
 - [LLDB](https://lldb.llvm.org/): LLVM debugger, default on macOS and for Swift and Rust. (flags: runs; cost: Free)
-- [pwndbg](https://github.com/pwndbg/pwndbg): GDB and LLDB plugin with heap, memory and context views; keep GDB auto-load safe-path at its default. (flags: runs; last push 2026-10-26; cost: Free)
+- [pwndbg](https://github.com/pwndbg/pwndbg): GDB and LLDB plugin with heap, memory and context views; keep GDB auto-load safe-path at its default. (flags: runs; last push 2026-11-02; cost: Free)
 - [GEF](https://github.com/hugsy/gef): Single-file GDB enhancement, handy for remote and embedded targets. (flags: runs; last push 2026-08-20; cost: Free)
-- [rr](https://github.com/rr-debugger/rr): Record and replay for Linux: debug the same execution as many times as you need. (flags: runs; last push 2026-10-23; cost: Free)
+- [rr](https://github.com/rr-debugger/rr): Record and replay for Linux: debug the same execution as many times as you need. (flags: runs; last push 2026-11-02; cost: Free)
 - [Pernosco](https://pernos.co/): Omniscient debugging built on rr recordings; query any value at any point in time. (flags: cloud; cost: Paid)
-- [edb](https://github.com/eteran/edb-debugger): x64dbg-style GUI debugger for Linux. (flags: runs; last push 2026-10-26; cost: Free)
+- [edb](https://github.com/eteran/edb-debugger): x64dbg-style GUI debugger for Linux. (flags: runs; last push 2026-10-27; cost: Free)
 
 ## Instrumentation & Emulation
 
-- [Frida](https://github.com/frida/frida): Inject JavaScript into running processes on every major platform. frida-server listens on the device: test devices only. (flags: runs; last push 2026-10-23; cost: Free)
+- [Frida](https://github.com/frida/frida): Inject JavaScript into running processes on every major platform. frida-server listens on the device: test devices only. (flags: runs; last push 2026-11-01; cost: Free)
 - [Unicorn](https://github.com/unicorn-engine/unicorn): CPU emulator for running a snippet (a decode loop) without running the program. (flags: runs; last push 2026-10-18; cost: Free)
 - [Qiling](https://github.com/qilingframework/qiling): Whole-binary emulation with OS-level hooks; PyPI lags GitHub releases. (flags: runs; last push 2026-10-23; cost: Free)
-- [DynamoRIO](https://github.com/DynamoRIO/dynamorio): Dynamic binary instrumentation for tracing and coverage. (flags: runs; last push 2026-10-26; cost: Free)
+- [DynamoRIO](https://github.com/DynamoRIO/dynamorio): Dynamic binary instrumentation for tracing and coverage. (flags: runs; last push 2026-11-02; cost: Free)
 - [QBDI](https://github.com/QBDI/QBDI): Dynamic binary instrumentation framework for x86, x86-64, ARM and AArch64. (flags: runs; last push 2026-09-02; cost: Free)
 - [QEMU](https://www.qemu.org/): Full-system and user-mode emulation; user mode forwards syscalls to the host kernel, so only inside a VM. (flags: runs; last push 2026-10-26; cost: Free)
 
@@ -63,39 +63,39 @@ Flags: runs = executes or emulates target code, or loads third-party plugins and
 
 ## Analysis Frameworks & Libraries
 
-- [angr](https://github.com/angr/angr): Symbolic execution and CFG recovery in Python; the standard for solving crackmes programmatically. (flags: runs; last push 2026-10-26; cost: Free)
-- [angr management](https://github.com/angr/angr-management): GUI for angr. (flags: runs; last push 2026-10-26; cost: Free)
-- [Triton](https://github.com/JonathanSalwan/Triton): Dynamic symbolic execution and taint analysis library. (flags: runs; last push 2026-10-26; cost: Free)
-- [Miasm](https://github.com/cea-sec/miasm): Reverse engineering framework with IR, emulation and deobfuscation helpers. (flags: runs; last push 2026-09-21; cost: Free)
-- [LIEF](https://github.com/lief-project/LIEF): Parse and modify ELF, PE, Mach-O, DEX and OAT from Python, C++ or Rust. (last push 2026-10-26; cost: Free)
-- [Capstone](https://github.com/capstone-engine/capstone): Multi-architecture disassembly library; prefer the stable 5.x line. (last push 2026-10-24; cost: Free)
+- [angr](https://github.com/angr/angr): Symbolic execution and CFG recovery in Python; the standard for solving crackmes programmatically. (flags: runs; last push 2026-11-02; cost: Free)
+- [angr management](https://github.com/angr/angr-management): GUI for angr. (flags: runs; last push 2026-11-02; cost: Free)
+- [Triton](https://github.com/JonathanSalwan/Triton): Dynamic symbolic execution and taint analysis library. (flags: runs; last push 2026-10-31; cost: Free)
+- [Miasm](https://github.com/cea-sec/miasm): Reverse engineering framework with IR, emulation and deobfuscation helpers. (flags: runs; last push 2026-10-31; cost: Free)
+- [LIEF](https://github.com/lief-project/LIEF): Parse and modify ELF, PE, Mach-O, DEX and OAT from Python, C++ or Rust. (last push 2026-11-02; cost: Free)
+- [Capstone](https://github.com/capstone-engine/capstone): Multi-architecture disassembly library; prefer the stable 5.x line. (last push 2026-10-27; cost: Free)
 - [Keystone](https://github.com/keystone-engine/keystone): Multi-architecture assembler library, Capstone's counterpart. (last push 2026-10-12; cost: Free)
 
 ## Binary Diffing
 
 - [BinDiff](https://github.com/google/bindiff): Google's open-source binary diffing for IDA, Binary Ninja and Ghidra. (last push 2026-09-18; cost: Free)
-- [BinExport](https://github.com/google/binexport): Exports disassembly for BinDiff from IDA, Binary Ninja and Ghidra. (last push 2026-10-16; cost: Free)
+- [BinExport](https://github.com/google/binexport): Exports disassembly for BinDiff from IDA, Binary Ninja and Ghidra. (last push 2026-10-27; cost: Free)
 - [Diaphora](https://github.com/joxeankoret/diaphora): Advanced diffing inside IDA, including decompiler-level comparison. (last push 2026-10-25; cost: Free)
 
 ## Android & Java
 
-- [JADX](https://github.com/skylot/jadx): DEX to Java decompiler with GUI; static analysis of APKs. (last push 2026-10-25; cost: Free)
-- [Apktool](https://github.com/iBotPeaches/Apktool): Decode and rebuild APK resources and smali; install rebuilt APKs only on an emulator. (last push 2026-10-26; cost: Free)
+- [JADX](https://github.com/skylot/jadx): DEX to Java decompiler with GUI; static analysis of APKs. (last push 2026-10-30; cost: Free)
+- [Apktool](https://github.com/iBotPeaches/Apktool): Decode and rebuild APK resources and smali; install rebuilt APKs only on an emulator. (last push 2026-11-02; cost: Free)
 - [JEB](https://www.pnfsoftware.com/): Commercial decompiler aimed at obfuscated Android and Dalvik code. (cost: Paid)
-- [Bytecode Viewer](https://github.com/Konloch/bytecode-viewer): Java and Android bytecode viewer with several decompilers side by side. (last push 2026-07-17; cost: Free)
-- [objection](https://github.com/sensepost/objection): Frida-powered runtime exploration for mobile apps you are authorised to test. (flags: runs; last push 2026-09-17; cost: Free)
-- [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF): Automated static and dynamic mobile app audit; run the Docker image bound to localhost. (flags: runs; last push 2026-10-26; cost: Free)
+- [Bytecode Viewer](https://github.com/Konloch/bytecode-viewer): Java and Android bytecode viewer with several decompilers side by side. (last push 2026-10-30; cost: Free)
+- [objection](https://github.com/sensepost/objection): Frida-powered runtime exploration for mobile apps you are authorised to test. (flags: runs; last push 2026-10-27; cost: Free)
+- [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF): Automated static and dynamic mobile app audit; run the Docker image bound to localhost. (flags: runs; last push 2026-11-01; cost: Free)
 - [Androguard](https://github.com/androguard/androguard): Python library for scripting APK, DEX and manifest analysis. (last push 2026-10-25; cost: Free)
-- [Recaf](https://github.com/Col-E/Recaf): Modern Java bytecode editor and decompiler front end. (last push 2026-10-24; cost: Free)
+- [Recaf](https://github.com/Col-E/Recaf): Modern Java bytecode editor and decompiler front end. (last push 2026-11-02; cost: Free)
 
 ## .NET
 
-- [ILSpy](https://github.com/icsharpcode/ILSpy): Static .NET decompiler for reading managed code without running it. ilspy.org is not official. (flags: impersonated; last push 2026-10-26; cost: Free)
-- [dnSpyEx](https://github.com/dnSpyEx/dnSpy): Maintained dnSpy continuation with a debugger. dnspy.org and dnspy.net have served malware: GitHub releases only. (flags: runs, impersonated; last push 2026-10-17; cost: Free)
+- [ILSpy](https://github.com/icsharpcode/ILSpy): Static .NET decompiler for reading managed code without running it. ilspy.org is not official. (flags: impersonated; last push 2026-11-01; cost: Free)
+- [dnSpyEx](https://github.com/dnSpyEx/dnSpy): Maintained dnSpy continuation with a debugger. dnspy.org and dnspy.net have served malware: GitHub releases only. (flags: runs, impersonated; last push 2026-11-01; cost: Free)
 
 ## iOS & macOS
 
-- [ipsw](https://github.com/blacktop/ipsw): Swiss-army tool for IPSW, kernelcache, dyld_shared_cache and Mach-O analysis. (last push 2026-10-26; cost: Free)
+- [ipsw](https://github.com/blacktop/ipsw): Swiss-army tool for IPSW, kernelcache, dyld_shared_cache and Mach-O analysis. (last push 2026-10-31; cost: Free)
 - [Corellium](https://www.corellium.com/): Virtual Arm iOS and Android devices for research; owned by Cellebrite since Dec 2025. (flags: cloud; cost: Paid)
 
 ## Language Runtimes & Packagers
@@ -107,56 +107,56 @@ Flags: runs = executes or emulates target code, or loads third-party plugins and
 - [pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor): PyInstaller: extracts the bundled .pyc files. (last push 2026-07-22; cost: Free)
 - [pycdc](https://github.com/zrax/pycdc): Python bytecode decompiler. (last push 2026-04-07; cost: Free)
 - [GDRE Tools](https://github.com/GDRETools/gdsdecomp): Godot: recovers projects and decompiles GDScript. (last push 2026-10-14; cost: Free)
-- [@electron/asar](https://github.com/electron/asar): Electron: extract app.asar to read the app's JavaScript; pin the version. (last push 2026-10-26; cost: Free)
-- [WABT](https://github.com/WebAssembly/wabt): WebAssembly: wasm2wat, wasm-objdump and wasm-decompile to C-like pseudocode. (last push 2026-10-26; cost: Free)
+- [@electron/asar](https://github.com/electron/asar): Electron: extract app.asar to read the app's JavaScript; pin the version. (last push 2026-11-01; cost: Free)
+- [WABT](https://github.com/WebAssembly/wabt): WebAssembly: wasm2wat, wasm-objdump and wasm-decompile to C-like pseudocode. (last push 2026-10-28; cost: Free)
 - [Cpp2IL](https://github.com/SamboyCoding/Cpp2IL): Unity IL2CPP to IL recovery; work in progress, check supported Unity versions, use on your own builds. (last push 2026-09-15; cost: Free)
 
 ## Web, JS & Protocols
 
 - [webcrack](https://github.com/j4k0xb/webcrack): Deobfuscates obfuscator.io output and unpacks webpack and browserify bundles. (flags: runs; last push 2026-07-26; cost: Free)
-- [mitmproxy](https://github.com/mitmproxy/mitmproxy): Intercepting HTTPS proxy for your own apps' traffic; keep its CA on test devices only. (last push 2026-10-25; cost: Free)
-- [mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger): Turns captures into an OpenAPI spec; sanitize tokens first. (last push 2026-10-19; cost: Free)
+- [mitmproxy](https://github.com/mitmproxy/mitmproxy): Intercepting HTTPS proxy for your own apps' traffic; keep its CA on test devices only. (last push 2026-11-01; cost: Free)
+- [mitmproxy2swagger](https://github.com/alufers/mitmproxy2swagger): Turns captures into an OpenAPI spec; sanitize tokens first. (last push 2026-10-26; cost: Free)
 - [Wireshark](https://www.wireshark.org/): Packet analysis; never run the GUI as root. (cost: Free)
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/): Sources with source maps, network panel and HAR export; use a separate browser profile with no wallet. (cost: Free)
 - [Burp Suite](https://portswigger.net/burp): Intercepting proxy for testing web apps you are authorised to test. (cost: Free · Paid)
-- [HTTP Toolkit](https://httptoolkit.com/): One-click interception for browsers, Android, Node and Docker. (last push 2026-10-20; cost: Free · Paid)
+- [HTTP Toolkit](https://httptoolkit.com/): One-click interception for browsers, Android, Node and Docker. (last push 2026-10-28; cost: Free · Paid)
 
 ## Firmware & Embedded
 
-- [unblob](https://github.com/onekey-sec/unblob): Recursive extraction of 78+ formats; runs as a normal user with traversal guards and a Landlock sandbox. (last push 2026-10-26; cost: Free)
+- [unblob](https://github.com/onekey-sec/unblob): Recursive extraction of 78+ formats; runs as a normal user with traversal guards and a Landlock sandbox. (last push 2026-11-02; cost: Free)
 - [binwalk](https://github.com/ReFirmLabs/binwalk): Signature scanning and entropy analysis (v3 is a Rust rewrite); never extract as root. (last push 2026-08-11; cost: Free)
-- [EMBA](https://github.com/e-m-b-a/emba): Full firmware audit with emulation, SBOM and CVE report; uses sudo, dedicated VM only. (flags: runs; last push 2026-10-26; cost: Free)
-- [FACT](https://github.com/fkie-cad/FACT_core): Fraunhofer's firmware analysis and comparison platform. (last push 2026-10-26; cost: Free)
+- [EMBA](https://github.com/e-m-b-a/emba): Full firmware audit with emulation, SBOM and CVE report; uses sudo, dedicated VM only. (flags: runs; last push 2026-11-02; cost: Free)
+- [FACT](https://github.com/fkie-cad/FACT_core): Fraunhofer's firmware analysis and comparison platform. (last push 2026-11-02; cost: Free)
 - [FirmAE](https://github.com/pr0v3rbs/FirmAE): Emulates router and IoT firmware for dynamic analysis. (flags: runs; last push 2026-06-24; cost: Free)
 - [dji-firmware-tools](https://github.com/o-gs/dji-firmware-tools): Parses DJI firmware packages; do not flash modified images to aircraft you fly. (last push 2026-10-25; cost: Free)
-- [UEFITool](https://github.com/LongSoft/UEFITool): Parses and extracts UEFI firmware images. (last push 2026-10-24; cost: Free)
-- [OFRAK](https://github.com/redballoonsecurity/ofrak): Unpack, analyse, modify and repack firmware in one framework. (last push 2026-10-21; cost: Free · Paid)
-- [OpenOCD](https://openocd.org/): On-chip debugging over JTAG and SWD for hardware you own. (flags: runs; last push 2026-10-24; cost: Free)
+- [UEFITool](https://github.com/LongSoft/UEFITool): Parses and extracts UEFI firmware images. (last push 2026-10-27; cost: Free)
+- [OFRAK](https://github.com/redballoonsecurity/ofrak): Unpack, analyse, modify and repack firmware in one framework. (last push 2026-10-30; cost: Free · Paid)
+- [OpenOCD](https://openocd.org/): On-chip debugging over JTAG and SWD for hardware you own. (flags: runs; last push 2026-11-01; cost: Free)
 - [sigrok](https://sigrok.org/): Logic analyser software and protocol decoders for UART, SPI, I2C and more. (cost: Free)
 
 ## Smart Contracts & EVM
 
-- [heimdall-rs](https://github.com/Jon-Becker/heimdall-rs): Decompile, disassemble and decode unverified contracts. Use release binaries; the default installer is curl to bash over HTTP. (last push 2026-10-25; cost: Free)
-- [EVMole](https://github.com/cdump/evmole): Selectors, arguments, mutability and storage layout from bytecode; has an MCP server (pin its version). (last push 2026-10-24; cost: Free)
+- [heimdall-rs](https://github.com/Jon-Becker/heimdall-rs): Decompile, disassemble and decode unverified contracts. Use release binaries; the default installer is curl to bash over HTTP. (last push 2026-11-01; cost: Free)
+- [EVMole](https://github.com/cdump/evmole): Selectors, arguments, mutability and storage layout from bytecode; has an MCP server (pin its version). (last push 2026-11-01; cost: Free)
 - [WhatsABI](https://github.com/shazow/whatsabi): Recovers ABIs and follows proxies to implementations. (last push 2026-10-19; cost: Free)
 - [Panoramix](https://github.com/palkeo/panoramix): Python EVM decompiler; a second opinion. (maintenance: No push since 2024-08-04; last push 2024-08-04; cost: Free)
 - [Dedaub](https://dedaub.com/): Hosted decompiler with Solidity-like output; keep unreleased contracts out. (flags: cloud; cost: Free tier · Paid)
-- [Foundry cast](https://github.com/foundry-rs/foundry): `cast code`, `cast storage` on ERC-1967 slots and `cast 4byte` for read-only checks. (last push 2026-10-26; cost: Free)
+- [Foundry cast](https://github.com/foundry-rs/foundry): `cast code`, `cast storage` on ERC-1967 slots and `cast 4byte` for read-only checks. (last push 2026-11-02; cost: Free)
 - [evm.codes](https://www.evm.codes/): Interactive opcode reference and playground. (cost: Free)
 
 ## AI-Assisted RE & MCP Servers
 
-- [REA](https://github.com/morluto/rea): One MCP server over twelve target types (Ghidra, IDA, Hopper, JADX, Binwalk, browser, processes). Runtime capture runs targets as you with no sandbox; pin the version. (flags: runs; last push 2026-10-26; cost: Free)
-- [IDA MCP (official)](https://github.com/HexRaysSA/ida-mcp): Hex-Rays' own server over stdio or Streamable HTTP; needs IDA 9.4+ with idalib and Python 3.11+. (last push 2026-10-23; cost: Needs IDA Pro)
+- [REA](https://github.com/morluto/rea): One MCP server over twelve target types (Ghidra, IDA, Hopper, JADX, Binwalk, browser, processes). Runtime capture runs targets as you with no sandbox; pin the version. (flags: runs; last push 2026-11-02; cost: Free)
+- [IDA MCP (official)](https://github.com/HexRaysSA/ida-mcp): Hex-Rays' own server over stdio or Streamable HTTP; needs IDA 9.4+ with idalib and Python 3.11+. (last push 2026-10-28; cost: Needs IDA Pro)
 - [IDA Pro MCP](https://github.com/mrexodia/ida-pro-mcp): Popular community server; py_eval, patch and debugger tools are high impact, leave them off. (flags: runs; last push 2026-09-26; cost: Needs IDA Pro)
-- [ida-mcp-rs](https://github.com/blacktop/ida-mcp-rs): Headless IDA MCP server in Rust. (last push 2026-10-21; cost: Needs IDA Pro)
-- [Ghidra MCP Server](https://github.com/bethington/ghidra-mcp): Actively maintained Ghidra server with 200+ tools including debugging. (flags: runs; last push 2026-10-26; cost: Free)
+- [ida-mcp-rs](https://github.com/blacktop/ida-mcp-rs): Headless IDA MCP server in Rust. (last push 2026-11-01; cost: Needs IDA Pro)
+- [Ghidra MCP Server](https://github.com/bethington/ghidra-mcp): Actively maintained Ghidra server with 200+ tools including debugging. (flags: runs; last push 2026-11-02; cost: Free)
 - [GhidraMCP](https://github.com/LaurieWired/GhidraMCP): The original Ghidra MCP bridge; unauthenticated localhost HTTP. (last push 2026-10-10; cost: Free)
-- [ReVa](https://github.com/cyberkaida/reverse-engineering-assistant): Ghidra MCP server with small, context-efficient tools; PyGhidra scripting is on by default. (flags: runs; last push 2026-10-26; cost: Free)
+- [ReVa](https://github.com/cyberkaida/reverse-engineering-assistant): Ghidra MCP server with small, context-efficient tools; PyGhidra scripting is on by default. (flags: runs; last push 2026-11-02; cost: Free)
 - [Binary Ninja MCP](https://docs.binary.ninja/guide/mcp.html): Built into Binary Ninja; the GUI server works in every edition, headless needs Commercial or Ultimate. (cost: Free tier · Paid)
 - [JADX AI MCP](https://github.com/zinja-coder/jadx-ai-mcp): JADX plugin exposing Android analysis to MCP clients. (last push 2026-10-19; cost: Free)
 - [radare2 MCP](https://github.com/radareorg/radare2-mcp): stdio MCP server for radare2. (last push 2026-10-15; cost: Free)
-- [r2ai](https://github.com/radareorg/r2ai): LLM-assisted decompilation (decai) and agent mode inside radare2. (flags: cloud; last push 2026-10-20; cost: Free)
+- [r2ai](https://github.com/radareorg/r2ai): LLM-assisted decompilation (decai) and agent mode inside radare2. (flags: cloud; last push 2026-10-26; cost: Free)
 - [Gepetto](https://github.com/JusticeRage/Gepetto): IDA plugin that explains functions and renames variables; sends code to the chosen provider unless you configure a local model. (flags: cloud; last push 2026-08-15; cost: Free)
 - [GhidrAssist](https://github.com/symgraph/GhidrAssist): LLM chat, RAG and agent mode inside Ghidra; hosted or local models. (flags: cloud; last push 2026-10-16; cost: Free)
 - [LLM4Decompile](https://github.com/albertan017/LLM4Decompile): Open decompilation models that run locally; 27 to 65% of functions re-execute correctly on its benchmark. (last push 2026-02-12; cost: Free)
@@ -169,14 +169,14 @@ Flags: runs = executes or emulates target code, or loads third-party plugins and
 
 ## Learn
 
-- [Compiler Explorer](https://godbolt.org/): See C and C++ become assembly across compilers and -O levels; the hosted site keeps shared links, so self-host for private code. (flags: cloud; last push 2026-10-26; cost: Free)
+- [Compiler Explorer](https://godbolt.org/): See C and C++ become assembly across compilers and -O levels; the hosted site keeps shared links, so self-host for private code. (flags: cloud; last push 2026-11-01; cost: Free)
 - [pwn.college](https://pwn.college/): ASU's hands-on dojos from Computing 101 to a full reversing course. (cost: Free)
 - [OpenSecurityTraining2](https://p.ost2.fyi/): Arch1001 x86-64, Dbg1012 GDB, Dbg1102 Ghidra, RE3011 C++ binaries. (cost: Free)
 - [Dive Into Systems](https://diveintosystems.org/): C, gdb, optimisation and assembly for x86-64 and ARM64 in one free book. (cost: Free)
 - [Azeria Labs](https://azeria-labs.com/writing-arm-assembly-part-1/): ARM assembly tutorials; 32-bit ARM only, pair with an AArch64 text. (cost: Free)
-- [Reverse-Engineering tutorial](https://github.com/mytechnotalent/Reverse-Engineering): Free tutorial covering x86, x64, ARM and AVR with worked examples. (last push 2026-10-25; cost: Free)
+- [Reverse-Engineering tutorial](https://github.com/mytechnotalent/Reverse-Engineering): Free tutorial covering x86, x64, ARM and AVR with worked examples. (last push 2026-11-02; cost: Free)
 - [Nightmare](https://github.com/guyinatuxedo/nightmare): Course built from annotated past CTF binaries using Ghidra, GEF and angr. (last push 2026-02-08; cost: Free)
-- [OWASP MASTG](https://mas.owasp.org/MASTG/): The mobile app security testing guide, including Android and iOS reverse engineering. (last push 2026-10-26; cost: Free)
+- [OWASP MASTG](https://mas.owasp.org/MASTG/): The mobile app security testing guide, including Android and iOS reverse engineering. (last push 2026-11-02; cost: Free)
 - [Practical Binary Analysis](https://nostarch.com/binaryanalysis): Formats, disassembly, instrumentation, taint and symbolic execution; concepts current, bundled VM dated (2018). (cost: Paid)
 - [The Ghidra Book, 2nd ed](https://nostarch.com/node/831): March 2026 edition with BSim, PyGhidra and the debugger. (cost: Paid)
 - [The Art of ARM Assembly, Vol 1](https://nostarch.com/art-arm-assembly-volume-1): Deep 64-bit ARM programming text (2025). (cost: Paid)
@@ -192,7 +192,7 @@ Flags: runs = executes or emulates target code, or loads third-party plugins and
 - [crackmes.one](https://crackmes.one/): Large reviewed crackme library with no-malware rules; VM only. (flags: runs; cost: Free)
 - [challenges.re](https://challenges.re/): Short multi-architecture exercises; no public write-ups. (cost: Free)
 - [Root-Me Cracking](https://www.root-me.org/en/Challenges/Cracking): About 70 challenges across ELF, PE, .NET, APK, wasm and game engines. (flags: runs; cost: Free · Premium)
-- [Ethernaut](https://github.com/OpenZeppelin/ethernaut): EVM wargame including storage and bytecode levels; testnet-only key. (last push 2026-10-23; cost: Free)
+- [Ethernaut](https://github.com/OpenZeppelin/ethernaut): EVM wargame including storage and bytecode levels; testnet-only key. (last push 2026-10-28; cost: Free)
 - [Damn Vulnerable DeFi](https://github.com/theredguild/damn-vulnerable-defi): 18 local DeFi challenges on Foundry; run locally. (maintenance: No push since 2025-03-21; last push 2025-03-21; cost: Free)
 - [Flare-On](https://flare-on.com/): Annual Windows reversing contest with official solutions back to 2014; Windows VM. (flags: runs; cost: Free)
 
