@@ -1018,7 +1018,7 @@
       "n": "usb-rea",
       "u": "https://github.com/emirmrkaljevic/usb-rea",
       "cost": "Free",
-      "d": "Infers USB gadget protocols from labelled usbmon/USBPcap captures and generates a pyusb driver."
+      "d": "Use it when you have a labelled usbmon or USBPcap capture of a USB gadget and want a pyusb driver with frame-level evidence."
     },
     {
       "c": "lab",
