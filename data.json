@@ -1014,6 +1014,13 @@
       "d": "Open decompilation models that run locally; 27 to 65% of functions re-execute correctly on its benchmark."
     },
     {
+      "c": "ai",
+      "n": "usb-rea",
+      "u": "https://github.com/emirmrkaljevic/usb-rea",
+      "cost": "Free",
+      "d": "Infers USB gadget protocols from labelled usbmon/USBPcap captures and generates a pyusb driver."
+    },
+    {
       "c": "lab",
       "n": "FLARE-VM",
       "u": "https://github.com/mandiant/flare-vm",
